@@ -22,7 +22,7 @@ As part of this portion of the project, I also developed some visualizations tha
 
 ### Vacation Search
 
-Once the weather data was gathered, coding was developed to request a range of temperatures from our customer.  The high temperature was then filtered so only cities within the range selected by the customer were shown.  Google Maps API were then leveraged to find hotels near the city.  Google Maps where then created to show the filtered cities.  Each city has a marker and if clicked by the user, the marker displays the nearest hotel, the city name, the country, and the current high temperature and weather conditions.  Sample maps are shown below.
+Once the weather data was gathered, coding was developed to request a range of temperatures from our customer.  The high temperature was then filtered so only cities within the range selected by the customer were shown.  Google Maps APIs calls were then leveraged to find hotels near the city.  Google Maps were then created to show the filtered cities.  Each city has a marker and if clicked by the user, the marker displays the nearest hotel, the city name, the country, the current high temperature, and weather conditions.  Sample maps are shown below.
 
 ![US_map](https://user-images.githubusercontent.com/82730954/121416130-11d85180-c92e-11eb-8b48-794ecd3d4533.png)
 
@@ -54,4 +54,4 @@ We would also have the opportunity to feature other nearby locations such as res
 
 For determining directions, we could provide various options including walking, bicycling, driving, and mass transit.  This customization could be especially appealing to several of our customer segments.
 
-Additionally, since cell coverage can be spotty in some areas or customers may intentionally unplug during their vacation, we could allow the printing of directions, selected hotel, confirmation numbers, etc., in one package so they have easy access to all key information.
+Additionally, since cell coverage can be spotty in some areas or customers may intentionally unplug during their vacation, we could allow the printing of directions, selected hotels, confirmation numbers, etc., in one package so they have easy access to all key information.
